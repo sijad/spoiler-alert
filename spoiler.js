@@ -17,7 +17,7 @@
 
     this.blurry = true;
 
-    this.$element.on('click', $.proxy(this.partial, this));
+    this.$element.on('click', $.proxy(this.toggle, this));
 
     this.$element
       .on('mouseenter', $.proxy(this.partial, this))
